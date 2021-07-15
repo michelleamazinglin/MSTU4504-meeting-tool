@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.threeRowContainer {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+}
+
+.threeRowContainer > div {
+  border: 1px solid #000000;
+  margin: 5px;
+  width: 33.33%;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.threeRowContainer > div > form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 3px;
+}
+
+input {
+  height: 25px;
+  margin: 3px;
+}
+
+.random {
+  margin-left: 45%;
+}
+
+li {
+  display: flex;
+  justify-content: space-evenly;
+}
